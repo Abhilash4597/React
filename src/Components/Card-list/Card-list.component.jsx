@@ -4,7 +4,7 @@ import './card-list.styles.css';
 export const CardList = props => {
   //# Add a check for props.monsters before mapping
   if (!props.monster) {
-    return (<div>No monsters to display</div>);
+    return <div>No monsters to display</div>;
   }
 
   return (
